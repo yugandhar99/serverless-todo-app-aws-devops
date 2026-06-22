@@ -1,0 +1,20 @@
+{
+  "name": "serverless-todo-api",
+  "version": "1.1.0",
+  "description": "Serverless TODO CRUD API using AWS Lambda, API Gateway, and DynamoDB",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check functions/*.mjs && node --check tests/*.test.mjs",
+    "validate": "npm run lint && npm test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "uuid": "^10.0.0"
+  }
+}
