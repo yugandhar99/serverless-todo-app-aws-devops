@@ -1,7 +1,7 @@
 module "dynamodb_table" {
   source  = "terraform-aws-modules/dynamodb-table/aws"
   version = "5.1.0"
-
+ 
   name         = "${local.project_name}-${var.environment}-dynamodb"
   hash_key     = "id"
   billing_mode = var.db_billing_mode
