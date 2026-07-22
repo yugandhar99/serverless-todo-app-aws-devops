@@ -1,4 +1,4 @@
-output "frontend_url" {
+output "fron tend_url" {
   description = "CloudFront URL for the React frontend."
   value       = "https://${module.frontend.cdn_domain_name}"
 }
