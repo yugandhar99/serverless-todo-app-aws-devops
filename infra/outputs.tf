@@ -2,7 +2,7 @@ output "frontend_url" {
   description = "CloudFront URL for the React frontend."
   value       = "https://${module.frontend.cdn_domain_name}"
 }
- 
+
 output "backend_url" {
   description = "API Gateway URL for the Todo backend."
   value       = module.backend.api_gateway_url
