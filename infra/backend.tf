@@ -1,4 +1,4 @@
-# Optional remote backend configuration.
+# Optional remote backend configuration. 
 # Uncomment and customize this block when you are ready to store Terraform state remotely.
 #
 # terraform {
