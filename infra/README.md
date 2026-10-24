@@ -1,4 +1,4 @@
-# Infrastructure - Serverless Todo App
+# Infrastructure - Serverless Todo App 
 
 This folder contains Terraform code for the AWS serverless infrastructure.
 
