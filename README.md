@@ -1,4 +1,4 @@
-# Serverless Todo App on AWS - DevOps  Edition
+# Serverless Todo App on AWS - DevOps Edition
 
 ![AWS Serverless](https://img.shields.io/badge/AWS-Serverless-orange)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4)
