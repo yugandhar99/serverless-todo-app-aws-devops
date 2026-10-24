@@ -1,4 +1,4 @@
-module "dynamodb_table" { 
+module "dynamodb_table" {
   source  = "terraform-aws-modules/dynamodb-table/aws"
   version = "5.1.0"
 
